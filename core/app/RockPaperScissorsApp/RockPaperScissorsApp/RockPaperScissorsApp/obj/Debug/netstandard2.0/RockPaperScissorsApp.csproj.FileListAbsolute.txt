@@ -1,0 +1,26 @@
+C:\Users\Ali Leo\Documents\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\bin\Debug\netstandard2.0\RockPaperScissorsApp.deps.json
+C:\Users\Ali Leo\Documents\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\bin\Debug\netstandard2.0\RockPaperScissorsApp.dll
+C:\Users\Ali Leo\Documents\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\bin\Debug\netstandard2.0\ref\RockPaperScissorsApp.dll
+C:\Users\Ali Leo\Documents\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\bin\Debug\netstandard2.0\RockPaperScissorsApp.pdb
+C:\Users\Ali Leo\Documents\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Ali Leo\Documents\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Ali Leo\Documents\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netstandard2.0\RockPaperScissorsApp.AssemblyInfoInputs.cache
+C:\Users\Ali Leo\Documents\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netstandard2.0\RockPaperScissorsApp.AssemblyInfo.cs
+C:\Users\Ali Leo\Documents\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Ali Leo\Documents\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netstandard2.0\RockPaperScissorsApp.dll
+C:\Users\Ali Leo\Documents\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netstandard2.0\ref\RockPaperScissorsApp.dll
+C:\Users\Ali Leo\Documents\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netstandard2.0\RockPaperScissorsApp.pdb
+C:\Projects\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\bin\Debug\netstandard2.0\RockPaperScissorsApp.deps.json
+C:\Projects\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\bin\Debug\netstandard2.0\RockPaperScissorsApp.dll
+C:\Projects\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\bin\Debug\netstandard2.0\ref\RockPaperScissorsApp.dll
+C:\Projects\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\bin\Debug\netstandard2.0\RockPaperScissorsApp.pdb
+C:\Projects\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netstandard2.0\RockPaperScissorsApp.csprojAssemblyReference.cache
+C:\Projects\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Projects\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netstandard2.0\Game.xaml.g.cs
+C:\Projects\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Projects\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netstandard2.0\RockPaperScissorsApp.AssemblyInfoInputs.cache
+C:\Projects\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netstandard2.0\RockPaperScissorsApp.AssemblyInfo.cs
+C:\Projects\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Projects\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netstandard2.0\RockPaperScissorsApp.dll
+C:\Projects\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netstandard2.0\ref\RockPaperScissorsApp.dll
+C:\Projects\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp\obj\Debug\netstandard2.0\RockPaperScissorsApp.pdb

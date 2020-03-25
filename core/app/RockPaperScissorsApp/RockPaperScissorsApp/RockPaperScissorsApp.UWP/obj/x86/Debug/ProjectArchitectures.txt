@@ -1,0 +1,1 @@
+C:\Projects\RockPaperScissorApp\core\app\RockPaperScissorsApp\RockPaperScissorsApp\RockPaperScissorsApp.UWP\RockPaperScissorsApp.UWP.csproj;x86

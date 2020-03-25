@@ -6,10 +6,11 @@ import random
 import numpy as np
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dropout, Flatten, Dense, Activation, BatchNormalization
+#import matplotlib.pyplot as plt
 
 # Configuration
-PIXELS = 300
-
+PIXELS = 224
+random.seed(1000)
 
 # Images
 x_train = []
@@ -61,17 +62,20 @@ for image_name in scissorDirPathList_test:
     x_test.append(cv.resize(img, (PIXELS,PIXELS), interpolation = cv.INTER_AREA))
     y_test.append(2)
 
+# Shuffle
+train_z = list(zip(x_train, y_train))
+random.shuffle(train_z)
+x_train, y_train = zip(*train_z)
+
+test_z = list(zip(x_test, y_test))
+random.shuffle(test_z)
+x_test, y_test = zip(*test_z)
+
 # Turning them into numpy array
 x_train = np.array(x_train)
 x_test = np.array(x_test)
 y_train = np.array(y_train)
 y_test = np.array(y_test)
-
-# Adding a dimension to x
-#x_train = x_train[..., np.newaxis]
-#x_test = x_test[..., np.newaxis]
-#y_train = y_train[..., np.newaxis]
-#y_test = y_test[..., np.newaxis]
 
 
 # Normalizing
@@ -79,17 +83,19 @@ x_train = np.array([i / 255.0 for i in x_train])
 x_test = np.array([i / 255.0 for i in x_test])
 
 # The model
-model = tf.keras.models.Sequential([
-    tf.keras.layers.Conv2D(64, 3, padding='valid', activation = 'relu', input_shape=(PIXELS, PIXELS, 3)),
-    tf.keras.layers.MaxPooling2D(),
-    tf.keras.layers.Conv2D(128, 3, padding='valid', activation = 'relu'),
-    tf.keras.layers.MaxPooling2D(),
-    tf.keras.layers.Flatten(),
-    tf.keras.layers.Dense(512, activation = 'relu'),
-    tf.keras.layers.Dense(2, activation='sigmoid')
+base_model = tf.keras.applications.MobileNetV2(input_shape=(PIXELS, PIXELS, 3), include_top=False, weights='imagenet')
+base_model.trainable = False
+average_layer = tf.keras.layers.GlobalAveragePooling2D()
+
+model = tf.keras.Sequential([
+    base_model,
+    average_layer,
+    tf.keras.layers.Dense(3, activation=tf.nn.softmax)
     ])
 
-model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+model.compile(optimizer=tf.keras.optimizers.Adam(lr=0.0001), loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
-model.fit(x_train, y_train, epochs=10)
+model.fit(x_train, y_train, epochs=150, batch_size = 2)
 model.evaluate(x_test, y_test, verbose = 1)
+
+model.save('RockPaperScissorsModel') 
